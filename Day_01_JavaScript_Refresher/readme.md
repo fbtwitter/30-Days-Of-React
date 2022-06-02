@@ -1,24 +1,6 @@
 <div align="center">
-
   <h1> 30 Days Of React: JavaScript Refresher</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-    <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
-</sub>
-
 </div>
-
-[<< Day 0](../readMe.md) | [Day 2 >>](../02_Day_Introduction_to_React/02_introduction_to_react.md)
-
-![30 Days of React banner](../images/30_days_of_react_banner_day_1.jpg)
 
 - [JavaScript Refresher](#javascript-refresher)
   - [0. Adding JavaScript to a Web Page](#0-adding-javascript-to-a-web-page)
@@ -54,9 +36,9 @@
       - [Sorting elements in array](#sorting-elements-in-array)
     - [Array of arrays](#array-of-arrays)
   - [💻 Exercise](#-exercise)
-      - [Exercise: Level 1](#exercise-level-1)
-      - [Exercise: Level 2](#exercise-level-2)
-      - [Exercise: Level 3](#exercise-level-3)
+    - [Exercise: Level 1](#exercise-level-1)
+    - [Exercise: Level 2](#exercise-level-2)
+    - [Exercise: Level 3](#exercise-level-3)
   - [4. Conditionals](#4-conditionals)
     - [If](#if)
     - [If Else](#if-else)
@@ -64,9 +46,9 @@
     - [Switch](#switch)
     - [Ternary Operators](#ternary-operators)
   - [💻 Exercises](#-exercises)
-      - [Exercises: Level 1](#exercises-level-1)
-      - [Exercises: Level 2](#exercises-level-2)
-      - [Exercises: Level 3](#exercises-level-3)
+    - [Exercises: Level 1](#exercises-level-1)
+    - [Exercises: Level 2](#exercises-level-2)
+    - [Exercises: Level 3](#exercises-level-3)
   - [5. Loops](#5-loops)
     - [Types of Loops](#types-of-loops)
       - [1. for](#1-for)
@@ -95,9 +77,9 @@
       - [Getting object keys and values using Object.entries()](#getting-object-keys-and-values-using-objectentries)
       - [Checking properties using hasOwnProperty()](#checking-properties-using-hasownproperty)
   - [💻 Exercises](#-exercises-1)
-      - [Exercises: Level 1](#exercises-level-1-1)
-      - [Exercises: Level 2](#exercises-level-2-1)
-      - [Exercises: Level 3](#exercises-level-3-1)
+    - [Exercises: Level 1](#exercises-level-1-1)
+    - [Exercises: Level 2](#exercises-level-2-1)
+    - [Exercises: Level 3](#exercises-level-3-1)
   - [8. Functions](#8-functions)
     - [Function Declaration](#function-declaration)
     - [Function without a parameter and return](#function-without-a-parameter-and-return)
@@ -115,9 +97,9 @@
     - [Function with default parameters](#function-with-default-parameters)
     - [Function declaration versus Arrow function](#function-declaration-versus-arrow-function)
   - [💻 Exercises](#-exercises-2)
-      - [Exercises: Level 1](#exercises-level-1-2)
-      - [Exercises: Level 2](#exercises-level-2-2)
-      - [Exercises: Level 3](#exercises-level-3-2)
+    - [Exercises: Level 1](#exercises-level-1-2)
+    - [Exercises: Level 2](#exercises-level-2-2)
+    - [Exercises: Level 3](#exercises-level-3-2)
   - [9. Higher Order Function](#9-higher-order-function)
     - [Callback](#callback)
     - [Returning function](#returning-function)
@@ -183,12 +165,12 @@ Create a project folder on your desktop or in any location, name it 30DaysOfJS a
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>30DaysOfScript:Inline Script</title>
-  </head>
-  <body>
-    <button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>
-  </body>
+	<head>
+		<title>30DaysOfScript:Inline Script</title>
+	</head>
+	<body>
+		<button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>
+	</body>
 </html>
 ```
 
@@ -202,13 +184,13 @@ First, let us write on the head part of the page.
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>30DaysOfScript:Internal Script</title>
-    <script>
-      console.log('Welcome to 30DaysOfJavaScript')
-    </script>
-  </head>
-  <body></body>
+	<head>
+		<title>30DaysOfScript:Internal Script</title>
+		<script>
+			console.log('Welcome to 30DaysOfJavaScript')
+		</script>
+	</head>
+	<body></body>
 </html>
 ```
 
@@ -217,15 +199,15 @@ This is how we write an internal script most of the time. Writing the JavaScript
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>30DaysOfScript:Internal Script</title>
-  </head>
-  <body>
-    <button onclick="alert('Welcome to 30DaysOfJavaScript!');">Click Me</button>
-    <script>
-      console.log('Welcome to 30DaysOfJavaScript')
-    </script>
-  </body>
+	<head>
+		<title>30DaysOfScript:Internal Script</title>
+	</head>
+	<body>
+		<button onclick="alert('Welcome to 30DaysOfJavaScript!');">Click Me</button>
+		<script>
+			console.log('Welcome to 30DaysOfJavaScript')
+		</script>
+	</body>
 </html>
 ```
 
@@ -247,11 +229,11 @@ External scripts in the _head_:
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>30DaysOfJavaScript:External script</title>
-    <script src="introduction.js"></script>
-  </head>
-  <body></body>
+	<head>
+		<title>30DaysOfJavaScript:External script</title>
+		<script src="introduction.js"></script>
+	</head>
+	<body></body>
 </html>
 ```
 
@@ -260,14 +242,14 @@ External scripts in the _body_:
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>30DaysOfJavaScript:External script</title>
-  </head>
-  <body>
-    //it could be in the header or in the body // Here is the recommended place
-    to put the external script
-    <script src="introduction.js"></script>
-  </body>
+	<head>
+		<title>30DaysOfJavaScript:External script</title>
+	</head>
+	<body>
+		//it could be in the header or in the body // Here is the recommended place
+		to put the external script
+		<script src="introduction.js"></script>
+	</body>
 </html>
 ```
 
@@ -285,13 +267,13 @@ console.log('Hello, World!')
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Multiple External Scripts</title>
-  </head>
-  <body>
-    <script src="./helloworld.js"></script>
-    <script src="./introduction.js"></script>
-  </body>
+	<head>
+		<title>Multiple External Scripts</title>
+	</head>
+	<body>
+		<script src="./helloworld.js"></script>
+		<script src="./introduction.js"></script>
+	</body>
 </html>
 ```
 
@@ -397,11 +379,11 @@ Number of countries: 5
 
 ```js
 const arr = [
-  'Asabeneh',
-  250,
-  true,
-  { country: 'Finland', city: 'Helsinki' },
-  { skills: ['HTML', 'CSS', 'JS', 'React', 'Python'] },
+	'Asabeneh',
+	250,
+	true,
+	{ country: 'Finland', city: 'Helsinki' },
+	{ skills: ['HTML', 'CSS', 'JS', 'React', 'Python'] },
 ] // arr containing different data types
 console.log(arr)
 ```
@@ -421,7 +403,7 @@ const companies = companiesString.split(',')
 
 console.log(companies) // ["Facebook", " Google", " Microsoft", " Apple", " IBM", " Oracle", " Amazon"]
 let txt =
-  'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+	'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
 const words = txt.split(' ')
 
 console.log(words)
@@ -468,13 +450,13 @@ console.log(numbers[lastIndex]) // -> 100
 
 ```js
 const webTechs = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'Node',
-  'MongoDB',
+	'HTML',
+	'CSS',
+	'JavaScript',
+	'React',
+	'Redux',
+	'Node',
+	'MongoDB',
 ] // List of web technologies
 
 console.log(webTechs) // all the array items
@@ -488,17 +470,17 @@ console.log(webTechs[lastIndex]) // -> MongoDB
 
 ```js
 const countries = [
-  'Albania',
-  'Bolivia',
-  'Canada',
-  'Denmark',
-  'Ethiopia',
-  'Finland',
-  'Germany',
-  'Hungary',
-  'Ireland',
-  'Japan',
-  'Kenya',
+	'Albania',
+	'Bolivia',
+	'Canada',
+	'Denmark',
+	'Ethiopia',
+	'Finland',
+	'Germany',
+	'Hungary',
+	'Ireland',
+	'Japan',
+	'Kenya',
 ] // List of countries
 
 console.log(countries) // -> all countries in array
@@ -511,14 +493,14 @@ console.log(countries[lastIndex]) //  -> Kenya
 
 ```js
 const shoppingCart = [
-  'Milk',
-  'Mango',
-  'Tomato',
-  'Potato',
-  'Avocado',
-  'Meat',
-  'Eggs',
-  'Sugar',
+	'Milk',
+	'Mango',
+	'Tomato',
+	'Potato',
+	'Avocado',
+	'Meat',
+	'Eggs',
+	'Sugar',
 ] // List of food products
 
 console.log(shoppingCart) // -> all shoppingCart in array
@@ -541,17 +523,17 @@ numbers[1] = 20 // changing  2 at index 1 to 20
 console.log(numbers) // [10, 20, 3, 4, 5]
 
 const countries = [
-  'Albania',
-  'Bolivia',
-  'Canada',
-  'Denmark',
-  'Ethiopia',
-  'Finland',
-  'Germany',
-  'Hungary',
-  'Ireland',
-  'Japan',
-  'Kenya',
+	'Albania',
+	'Bolivia',
+	'Canada',
+	'Denmark',
+	'Ethiopia',
+	'Finland',
+	'Germany',
+	'Hungary',
+	'Ireland',
+	'Japan',
+	'Kenya',
 ]
 
 countries[0] = 'Afghanistan' // Replacing Albania by Afghanistan
@@ -656,23 +638,23 @@ const fruits = ['banana', 'orange', 'mango', 'lemon']
 let index = fruits.indexOf('banana') // 0
 
 if (index != -1) {
-  console.log('This fruit does exist in the array')
+	console.log('This fruit does exist in the array')
 } else {
-  console.log('This fruit does not exist in the array')
+	console.log('This fruit does not exist in the array')
 }
 // This fruit does exist in the array
 
 // we can use also ternary here
 index != -1
-  ? console.log('This fruit does exist in the array')
-  : console.log('This fruit does not exist in the array')
+	? console.log('This fruit does exist in the array')
+	: console.log('This fruit does not exist in the array')
 
 // let us check if a avocado exist in the array
 let indexOfAvocado = fruits.indexOf('avocado') // -1, if the element not found index is -1
 if (indexOfAvocado != -1) {
-  console.log('This fruit does exist in the array')
+	console.log('This fruit does exist in the array')
 } else {
-  console.log('This fruit does not exist in the array')
+	console.log('This fruit does not exist in the array')
 }
 // This fruit does not exist in the array
 ```
@@ -702,13 +684,13 @@ console.log(numbers.includes(1)) // true
 console.log(numbers.includes(6)) // false
 
 const webTechs = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'Node',
-  'MongoDB',
+	'HTML',
+	'CSS',
+	'JavaScript',
+	'React',
+	'Redux',
+	'Node',
+	'MongoDB',
 ] // List of web technologies
 
 console.log(webTechs.includes('Node')) // true
@@ -756,13 +738,13 @@ console.log(names.join(', ')) //Asabeneh, Mathias, Elias, Brook
 console.log(names.join(' # ')) //Asabeneh # Mathias # Elias # Brook
 
 const webTechs = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'Node',
-  'MongoDB',
+	'HTML',
+	'CSS',
+	'JavaScript',
+	'React',
+	'Redux',
+	'Node',
+	'MongoDB',
 ] // List of web technologies
 
 console.log(webTechs.join()) // "HTML,CSS,JavaScript,React,Redux,Node,MongoDB"
@@ -888,13 +870,13 @@ sort: arrange array elements in ascending order. Sort takes a call back function
 
 ```js
 const webTechs = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'Node',
-  'MongoDB',
+	'HTML',
+	'CSS',
+	'JavaScript',
+	'React',
+	'Redux',
+	'Node',
+	'MongoDB',
 ]
 
 webTechs.sort()
@@ -913,8 +895,8 @@ const firstNums = [1, 2, 3]
 const secondNums = [1, 4, 9]
 
 const arrayOfArray = [
-  [1, 2, 3],
-  [1, 2, 3],
+	[1, 2, 3],
+	[1, 2, 3],
 ]
 console.log(arrayOfArray[0]) // [1, 2, 3]
 
@@ -933,27 +915,27 @@ console.log(fullStack[1]) // ["Node", "Express", "MongoDB"]
 
 ```js
 const countries = [
-  'Albania',
-  'Bolivia',
-  'Canada',
-  'Denmark',
-  'Ethiopia',
-  'Finland',
-  'Germany',
-  'Hungary',
-  'Ireland',
-  'Japan',
-  'Kenya',
+	'Albania',
+	'Bolivia',
+	'Canada',
+	'Denmark',
+	'Ethiopia',
+	'Finland',
+	'Germany',
+	'Hungary',
+	'Ireland',
+	'Japan',
+	'Kenya',
 ]
 
 const webTechs = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'Node',
-  'MongoDB',
+	'HTML',
+	'CSS',
+	'JavaScript',
+	'React',
+	'Redux',
+	'Node',
+	'MongoDB',
 ]
 ```
 
@@ -988,7 +970,7 @@ const webTechs = [
 
    ```js
    let text =
-     'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+   	'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
    console.log(words)
    console.log(words.length)
    ```
@@ -1058,7 +1040,7 @@ In JavaScript and other programming languages the key word _if_ is to used check
 ```js
 // syntax
 if (condition) {
-  //this part of code runs for truthy condition
+	//this part of code runs for truthy condition
 }
 ```
 
@@ -1067,7 +1049,7 @@ if (condition) {
 ```js
 let num = 3
 if (num > 0) {
-  console.log(`${num} is a positive number`)
+	console.log(`${num} is a positive number`)
 }
 //  3 is a positive number
 ```
@@ -1077,7 +1059,7 @@ As you can see in the condition example above, 3 is greater than 0, so it is a p
 ```js
 let isRaining = true
 if (isRaining) {
-  console.log('Remember to take your rain coat.')
+	console.log('Remember to take your rain coat.')
 }
 ```
 
@@ -1090,26 +1072,26 @@ If condition is true the first block will be executed, if not the else condition
 ```js
 // syntax
 if (condition) {
-  // this part of code runs for truthy condition
+	// this part of code runs for truthy condition
 } else {
-  // this part of code runs for false condition
+	// this part of code runs for false condition
 }
 ```
 
 ```js
 let num = 3
 if (num > 0) {
-  console.log(`${num} is a positive number`)
+	console.log(`${num} is a positive number`)
 } else {
-  console.log(`${num} is a negative number`)
+	console.log(`${num} is a negative number`)
 }
 //  3 is a positive number
 
 num = -3
 if (num > 0) {
-  console.log(`${num} is a positive number`)
+	console.log(`${num} is a positive number`)
 } else {
-  console.log(`${num} is a negative number`)
+	console.log(`${num} is a negative number`)
 }
 //  -3 is a negative number
 ```
@@ -1117,17 +1099,17 @@ if (num > 0) {
 ```js
 let isRaining = true
 if (isRaining) {
-  console.log('You need a rain coat.')
+	console.log('You need a rain coat.')
 } else {
-  console.log('No need for a rain coat.')
+	console.log('No need for a rain coat.')
 }
 // You need a rain coat.
 
 isRaining = false
 if (isRaining) {
-  console.log('You need a rain coat.')
+	console.log('You need a rain coat.')
 } else {
-  console.log('No need for a rain coat.')
+	console.log('No need for a rain coat.')
 }
 // No need for a rain coat.
 ```
@@ -1141,11 +1123,11 @@ On our daily life, we make decisions on daily basis. We make decisions not by ch
 ```js
 // syntax
 if (condition) {
-  // code
+	// code
 } else if (condition) {
-  // code
+	// code
 } else {
-  //  code
+	//  code
 }
 ```
 
@@ -1154,13 +1136,13 @@ if (condition) {
 ```js
 let a = 0
 if (a > 0) {
-  console.log(`${a} is a positive number`)
+	console.log(`${a} is a positive number`)
 } else if (a < 0) {
-  console.log(`${a} is a negative number`)
+	console.log(`${a} is a negative number`)
 } else if (a == 0) {
-  console.log(`${a} is zero`)
+	console.log(`${a} is zero`)
 } else {
-  console.log(`${a} is not a number`)
+	console.log(`${a} is not a number`)
 }
 ```
 
@@ -1168,13 +1150,13 @@ if (a > 0) {
 // if else if else
 let weather = 'sunny'
 if (weather === 'rainy') {
-  console.log('You need a rain coat.')
+	console.log('You need a rain coat.')
 } else if (weather === 'cloudy') {
-  console.log('It might be cold, you need a jacket.')
+	console.log('It might be cold, you need a jacket.')
 } else if (weather === 'sunny') {
-  console.log('Go out freely.')
+	console.log('Go out freely.')
 } else {
-  console.log('No need for rain coat.')
+	console.log('No need for rain coat.')
 }
 ```
 
@@ -1185,33 +1167,33 @@ The switch statement starts with a _switch_ keyword followed by a parenthesis an
 
 ```js
 switch (caseValue) {
-  case 1:
-    // code
-    break
-  case 2:
-    // code
-    break
-  case 3:
-  // code
-  default:
-  // code
+	case 1:
+		// code
+		break
+	case 2:
+		// code
+		break
+	case 3:
+	// code
+	default:
+	// code
 }
 ```
 
 ```js
 let weather = 'cloudy'
 switch (weather) {
-  case 'rainy':
-    console.log('You need a rain coat.')
-    break
-  case 'cloudy':
-    console.log('It might be cold, you need a jacket.')
-    break
-  case 'sunny':
-    console.log('Go out freely.')
-    break
-  default:
-    console.log(' No need for rain coat.')
+	case 'rainy':
+		console.log('You need a rain coat.')
+		break
+	case 'cloudy':
+		console.log('It might be cold, you need a jacket.')
+		break
+	case 'sunny':
+		console.log('Go out freely.')
+		break
+	default:
+		console.log(' No need for rain coat.')
 }
 
 // Switch More Examples
@@ -1219,29 +1201,29 @@ let dayUserInput = prompt('What day is today ?')
 let day = dayUserInput.toLowerCase()
 
 switch (day) {
-  case 'monday':
-    console.log('Today is Monday')
-    break
-  case 'tuesday':
-    console.log('Today is Tuesday')
-    break
-  case 'wednesday':
-    console.log('Today is Wednesday')
-    break
-  case 'thursday':
-    console.log('Today is Thursday')
-    break
-  case 'friday':
-    console.log('Today is Friday')
-    break
-  case 'saturday':
-    console.log('Today is Saturday')
-    break
-  case 'sunday':
-    console.log('Today is Sunday')
-    break
-  default:
-    console.log('It is not a week day.')
+	case 'monday':
+		console.log('Today is Monday')
+		break
+	case 'tuesday':
+		console.log('Today is Tuesday')
+		break
+	case 'wednesday':
+		console.log('Today is Wednesday')
+		break
+	case 'thursday':
+		console.log('Today is Thursday')
+		break
+	case 'friday':
+		console.log('Today is Friday')
+		break
+	case 'saturday':
+		console.log('Today is Saturday')
+		break
+	case 'sunday':
+		console.log('Today is Sunday')
+		break
+	default:
+		console.log('It is not a week day.')
 }
 ```
 
@@ -1250,17 +1232,17 @@ switch (day) {
 ```js
 let num = prompt('Enter number')
 switch (true) {
-  case num > 0:
-    console.log('Number is positive')
-    break
-  case num == 0:
-    console.log('Numbers is zero')
-    break
-  case num < 0:
-    console.log('Number is negative')
-    break
-  default:
-    console.log('Entered value was not a number')
+	case num > 0:
+		console.log('Number is positive')
+		break
+	case num == 0:
+		console.log('Numbers is zero')
+		break
+	case num < 0:
+		console.log('Number is negative')
+		break
+	default:
+		console.log('Entered value was not a number')
 }
 ```
 
@@ -1273,8 +1255,8 @@ To generalize, ternary operator is another way to write conditionals.
 ```js
 let isRaining = true
 isRaining
-  ? console.log('You need a rain coat.')
-  : console.log('No need for a rain coat.')
+	? console.log('You need a rain coat.')
+	: console.log('No need for a rain coat.')
 ```
 
 ### 💻 Exercises
@@ -1407,7 +1389,7 @@ This code prints from 0 to 5.
 
 ```js
 for (let i = 0; i < 6; i++) {
-  console.log(i)
+	console.log(i)
 }
 ```
 
@@ -1416,7 +1398,7 @@ For example if we want to sum all the numbers from 0 to 100.
 ```js
 let sum = 0
 for (let i = 0; i < 101; i++) {
-  sum += i
+	sum += i
 }
 
 console.log(sum)
@@ -1427,7 +1409,7 @@ If we want to sum only even numbers:
 ```js
 let sum = 0
 for (let i = 0; i < 101; i += 2) {
-  sum += i
+	sum += i
 }
 
 console.log(sum)
@@ -1436,9 +1418,9 @@ console.log(sum)
 
 let total = 0
 for (let i = 0; i < 101; i++) {
-  if (i % 2 == 0) {
-    total += i
-  }
+	if (i % 2 == 0) {
+		total += i
+	}
 }
 console.log(total)
 ```
@@ -1448,7 +1430,7 @@ This code iterates through the array
 ```js
 const nums = [1, 2, 3, 4, 5]
 for (let i = 0; i < 6; i++) {
-  console.log(nums[i])
+	console.log(nums[i])
 }
 ```
 
@@ -1456,7 +1438,7 @@ This code prints 5 to 0. Looping in reverse order
 
 ```js
 for (let i = 5; i >= 0; i--) {
-  console.log(i)
+	console.log(i)
 }
 ```
 
@@ -1467,7 +1449,7 @@ const nums = [1, 2, 3, 4, 5]
 const lastIndex = nums.length - 1
 const newArray = []
 for (let i = lastIndex; i >= 0; i--) {
-  newArray.push(nums[i])
+	newArray.push(nums[i])
 }
 
 console.log(newArray)
@@ -1480,8 +1462,8 @@ We use the while loop when we do not know how man iteration we go in advance.
 ```js
 let count = prompt('Enter a positive number: ')
 while (count > 0) {
-  console.log(count)
-  count--
+	console.log(count)
+	count--
 }
 ```
 
@@ -1492,8 +1474,8 @@ Do while run at least once if the condition is true or false
 ```js
 let count = 0
 do {
-  console.log(count)
-  count++
+	console.log(count)
+	count++
 } while (count < 11)
 ```
 
@@ -1502,8 +1484,8 @@ The code below runs ones though the condition is false
 ```js
 let count = 11
 do {
-  console.log(count)
-  count++
+	console.log(count)
+	count++
 } while (count < 11)
 ```
 
@@ -1516,12 +1498,12 @@ The for of loop is very handy to use it with array. If we are not interested in 
 ```js
 const numbers = [1, 2, 3, 4, 5]
 for (const number of numbers) {
-  console.log(number)
+	console.log(number)
 }
 
 const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
 for (const country of countries) {
-  console.log(country.toUpperCase())
+	console.log(country.toUpperCase())
 }
 ```
 
@@ -1532,12 +1514,12 @@ If we are interested in the index of the array forEach is preferable to for of l
 ```js
 const numbers = [1, 2, 3, 4, 5]
 numbers.forEach((number, i) => {
-  console.log(number, i)
+	console.log(number, i)
 })
 
 const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
 countries.forEach((country, i, arr) => {
-  console.log(i, country.toUpperCase())
+	console.log(i, country.toUpperCase())
 })
 ```
 
@@ -1547,15 +1529,15 @@ The for in loop can be used with object literals to get the keys of the object.
 
 ```js
 const user = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
-  age: 250,
-  country: 'Finland',
-  skills: ['HTML', 'CSS', 'JS', 'React', 'Node', 'Python', 'D3.js'],
+	firstName: 'Asabeneh',
+	lastName: 'Yetayeh',
+	age: 250,
+	country: 'Finland',
+	skills: ['HTML', 'CSS', 'JS', 'React', 'Node', 'Python', 'D3.js'],
 }
 
 for (const key in user) {
-  console.log(key, user[key])
+	console.log(key, user[key])
 }
 ```
 
@@ -1567,10 +1549,10 @@ Break is used to interrupt a loop.
 
 ```js
 for (let i = 0; i <= 5; i++) {
-  if (i == 3) {
-    break
-  }
-  console.log(i)
+	if (i == 3) {
+		break
+	}
+	console.log(i)
 }
 
 // 0 1 2
@@ -1584,10 +1566,10 @@ We use the keyword continue to skip a certain iterations.
 
 ```js
 for (let i = 0; i <= 5; i++) {
-  if (i == 3) {
-    continue
-  }
-  console.log(i)
+	if (i == 3) {
+		continue
+	}
+	console.log(i)
 }
 // 0 1 2 4 5
 ```
@@ -1624,10 +1606,10 @@ Without using console.log() open your browser and check, you will see the value 
 a = 'JavaScript' // is a window scope this found anywhere
 b = 10 // this is a window scope variable
 function letsLearnScope() {
-  console.log(a, b)
-  if (true) {
-    console.log(a, b)
-  }
+	console.log(a, b)
+	if (true) {
+		console.log(a, b)
+	}
 }
 console.log(a, b) // accessible
 ```
@@ -1641,13 +1623,13 @@ A globally declared variable can be accessed every where in the same file. But t
 let a = 'JavaScript' // is a global scope it will be found anywhere in this file
 let b = 10 // is a global scope it will be found anywhere in this file
 function letsLearnScope() {
-  console.log(a, b) // JavaScript 10, accessible
-  if (true) {
-    let a = 'Python'
-    let b = 100
-    console.log(a, b) // Python 100
-  }
-  console.log(a, b)
+	console.log(a, b) // JavaScript 10, accessible
+	if (true) {
+		let a = 'Python'
+		let b = 100
+		console.log(a, b) // Python 100
+	}
+	console.log(a, b)
 }
 letsLearnScope()
 console.log(a, b) // JavaScript 10, accessible
@@ -1662,18 +1644,18 @@ A variable declared as local can be accessed only in certain block code.
 let a = 'JavaScript' // is a global scope it will be found anywhere in this file
 let b = 10 // is a global scope it will be found anywhere in this file
 function letsLearnScope() {
-  console.log(a, b) // JavaScript 10, accessible
-  let c = 30
-  if (true) {
-    // we can access from the function and outside the function but
-    // variables declared inside the if will not be accessed outside the if block
-    let a = 'Python'
-    let b = 20
-    let d = 40
-    console.log(a, b, c) // Python 20 30
-  }
-  // we can not access c because c's scope is only the if block
-  console.log(a, b) // JavaScript 10
+	console.log(a, b) // JavaScript 10, accessible
+	let c = 30
+	if (true) {
+		// we can access from the function and outside the function but
+		// variables declared inside the if will not be accessed outside the if block
+		let a = 'Python'
+		let b = 20
+		let d = 40
+		console.log(a, b, c) // Python 20 30
+	}
+	// we can not access c because c's scope is only the if block
+	console.log(a, b) // JavaScript 10
 }
 letsLearnScope()
 console.log(a, b) // JavaScript 10, accessible
@@ -1684,19 +1666,19 @@ Now, you have an understanding of scope. A variable declared with _var_ only sco
 ```js
 //scope.js
 function letsLearnScope() {
-  var gravity = 9.81
-  console.log(gravity)
+	var gravity = 9.81
+	console.log(gravity)
 }
 // console.log(gravity), Uncaught ReferenceError: gravity is not defined
 
 if (true) {
-  var gravity = 9.81
-  console.log(gravity) // 9.81
+	var gravity = 9.81
+	console.log(gravity) // 9.81
 }
 console.log(gravity) // 9.81
 
 for (var i = 0; i < 3; i++) {
-  console.log(i) // 1, 2, 3
+	console.log(i) // 1, 2, 3
 }
 console.log(i)
 ```
@@ -1706,20 +1688,20 @@ In ES6 and above there is _let_ and _const_, so you will not suffer from the sne
 ```js
 //scope.js
 function letsLearnScope() {
-  // you can use let or const, but gravity is constant I prefer to use const
-  const gravity = 9.81
-  console.log(gravity)
+	// you can use let or const, but gravity is constant I prefer to use const
+	const gravity = 9.81
+	console.log(gravity)
 }
 // console.log(gravity), Uncaught ReferenceError: gravity is not defined
 
 if (true) {
-  const gravity = 9.81
-  console.log(gravity) // 9.81
+	const gravity = 9.81
+	console.log(gravity) // 9.81
 }
 // console.log(gravity), Uncaught ReferenceError: gravity is not defined
 
 for (let i = 0; i < 3; i++) {
-  console.log(i) // 1, 2, 3
+	console.log(i) // 1, 2, 3
 }
 // console.log(i), Uncaught ReferenceError: gravity is not defined
 ```
@@ -1747,28 +1729,28 @@ Let us see some examples of object. Each key has a value in the object.
 
 ```js
 const rectangle = {
-  length: 20,
-  width: 20,
+	length: 20,
+	width: 20,
 }
 console.log(rectangle) // {length: 20, width: 20}
 
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
-  age: 250,
-  country: 'Finland',
-  city: 'Helsinki',
-  skills: [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'React',
-    'Node',
-    'MongoDB',
-    'Python',
-    'D3.js',
-  ],
-  isMarried: true,
+	firstName: 'Asabeneh',
+	lastName: 'Yetayeh',
+	age: 250,
+	country: 'Finland',
+	city: 'Helsinki',
+	skills: [
+		'HTML',
+		'CSS',
+		'JavaScript',
+		'React',
+		'Node',
+		'MongoDB',
+		'Python',
+		'D3.js',
+	],
+	isMarried: true,
 }
 console.log(person)
 ```
@@ -1782,25 +1764,25 @@ We can access values of object using two methods:
 
 ```js
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
-  age: 250,
-  country: 'Finland',
-  city: 'Helsinki',
-  skills: [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'React',
-    'Node',
-    'MongoDB',
-    'Python',
-    'D3.js',
-  ],
-  getFullName: function () {
-    return `${this.firstName}${this.lastName}`
-  },
-  'phone number': '+3584545454545',
+	firstName: 'Asabeneh',
+	lastName: 'Yetayeh',
+	age: 250,
+	country: 'Finland',
+	city: 'Helsinki',
+	skills: [
+		'HTML',
+		'CSS',
+		'JavaScript',
+		'React',
+		'Node',
+		'MongoDB',
+		'Python',
+		'D3.js',
+	],
+	getFullName: function () {
+		return `${this.firstName}${this.lastName}`
+	},
+	'phone number': '+3584545454545',
 }
 
 // accessing values using .
@@ -1826,24 +1808,24 @@ Now, the person object has getFullName properties. The getFullName is function i
 
 ```js
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
-  age: 250,
-  country: 'Finland',
-  city: 'Helsinki',
-  skills: [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'React',
-    'Node',
-    'MongoDB',
-    'Python',
-    'D3.js',
-  ],
-  getFullName: function () {
-    return `${this.firstName} ${this.lastName}`
-  },
+	firstName: 'Asabeneh',
+	lastName: 'Yetayeh',
+	age: 250,
+	country: 'Finland',
+	city: 'Helsinki',
+	skills: [
+		'HTML',
+		'CSS',
+		'JavaScript',
+		'React',
+		'Node',
+		'MongoDB',
+		'Python',
+		'D3.js',
+	],
+	getFullName: function () {
+		return `${this.firstName} ${this.lastName}`
+	},
 }
 
 console.log(person.getFullName())
@@ -1858,24 +1840,24 @@ Setting a new keys in an object
 
 ```js
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
-  age: 250,
-  country: 'Finland',
-  city: 'Helsinki',
-  skills: [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'React',
-    'Node',
-    'MongoDB',
-    'Python',
-    'D3.js',
-  ],
-  getFullName: function () {
-    return `${this.firstName} ${this.lastName}`
-  },
+	firstName: 'Asabeneh',
+	lastName: 'Yetayeh',
+	age: 250,
+	country: 'Finland',
+	city: 'Helsinki',
+	skills: [
+		'HTML',
+		'CSS',
+		'JavaScript',
+		'React',
+		'Node',
+		'MongoDB',
+		'Python',
+		'D3.js',
+	],
+	getFullName: function () {
+		return `${this.firstName} ${this.lastName}`
+	},
 }
 person.nationality = 'Ethiopian'
 person.country = 'Finland'
@@ -1885,15 +1867,15 @@ person.skills.push('SasS')
 person.isMarried = true
 
 person.getPersonInfo = function () {
-  let skillsWithoutLastSkill = this.skills
-    .slice(0, this.skills.length - 1)
-    .join(', ')
-  let lastSkill = this.skills.slice(this.skills.length - 1)[0]
+	let skillsWithoutLastSkill = this.skills
+		.slice(0, this.skills.length - 1)
+		.join(', ')
+	let lastSkill = this.skills.slice(this.skills.length - 1)[0]
 
-  let skills = `${skillsWithoutLastSkill}, and ${lastSkill}`
-  let fullName = this.getFullName()
-  let statement = `${fullName} is a ${this.title}.\nHe lives in ${this.country}.\nHe teaches ${skills}.`
-  return statement
+	let skills = `${skillsWithoutLastSkill}, and ${lastSkill}`
+	let fullName = this.getFullName()
+	let statement = `${fullName} is a ${this.title}.\nHe lives in ${this.country}.\nHe teaches ${skills}.`
+	return statement
 }
 console.log(person)
 console.log(person.getPersonInfo())
@@ -1913,20 +1895,20 @@ _Object.assign_: To copy an object without modifying the original object
 
 ```js
 const person = {
-  firstName: 'Asabeneh',
-  age: 250,
-  country: 'Finland',
-  city: 'Helsinki',
-  skills: ['HTML', 'CSS', 'JS'],
-  title: 'teacher',
-  address: {
-    street: 'Heitamienkatu 16',
-    pobox: 2002,
-    city: 'Helsinki',
-  },
-  getPersonInfo: function () {
-    return `I am ${this.firstName} and I live in ${this.city}, ${this.country}. I am ${this.age}.`
-  },
+	firstName: 'Asabeneh',
+	age: 250,
+	country: 'Finland',
+	city: 'Helsinki',
+	skills: ['HTML', 'CSS', 'JS'],
+	title: 'teacher',
+	address: {
+		street: 'Heitamienkatu 16',
+		pobox: 2002,
+		city: 'Helsinki',
+	},
+	getPersonInfo: function () {
+		return `I am ${this.firstName} and I live in ${this.city}, ${this.country}. I am ${this.age}.`
+	},
 }
 
 //Object methods: Object.assign, Object.keys, Object.values, Object.entries
@@ -2059,82 +2041,82 @@ console.log(copyPerson.hasOwnProperty('score'))
 
 ```js
 const users = [
-  {
-    _id: 'ab12ex',
-    username: 'Alex',
-    email: 'alex@alex.com',
-    password: '123123',
-    createdAt: '08/01/2020 9:00 AM',
-    isLoggedIn: false,
-  },
-  {
-    _id: 'fg12cy',
-    username: 'Asab',
-    email: 'asab@asab.com',
-    password: '123456',
-    createdAt: '08/01/2020 9:30 AM',
-    isLoggedIn: true,
-  },
-  {
-    _id: 'zwf8md',
-    username: 'Brook',
-    email: 'brook@brook.com',
-    password: '123111',
-    createdAt: '08/01/2020 9:45 AM',
-    isLoggedIn: true,
-  },
-  {
-    _id: 'eefamr',
-    username: 'Martha',
-    email: 'martha@martha.com',
-    password: '123222',
-    createdAt: '08/01/2020 9:50 AM',
-    isLoggedIn: false,
-  },
-  {
-    _id: 'ghderc',
-    username: 'Thomas',
-    email: 'thomas@thomas.com',
-    password: '123333',
-    createdAt: '08/01/2020 10:00 AM',
-    isLoggedIn: false,
-  },
+	{
+		_id: 'ab12ex',
+		username: 'Alex',
+		email: 'alex@alex.com',
+		password: '123123',
+		createdAt: '08/01/2020 9:00 AM',
+		isLoggedIn: false,
+	},
+	{
+		_id: 'fg12cy',
+		username: 'Asab',
+		email: 'asab@asab.com',
+		password: '123456',
+		createdAt: '08/01/2020 9:30 AM',
+		isLoggedIn: true,
+	},
+	{
+		_id: 'zwf8md',
+		username: 'Brook',
+		email: 'brook@brook.com',
+		password: '123111',
+		createdAt: '08/01/2020 9:45 AM',
+		isLoggedIn: true,
+	},
+	{
+		_id: 'eefamr',
+		username: 'Martha',
+		email: 'martha@martha.com',
+		password: '123222',
+		createdAt: '08/01/2020 9:50 AM',
+		isLoggedIn: false,
+	},
+	{
+		_id: 'ghderc',
+		username: 'Thomas',
+		email: 'thomas@thomas.com',
+		password: '123333',
+		createdAt: '08/01/2020 10:00 AM',
+		isLoggedIn: false,
+	},
 ]
 
 const products = [
-  {
-    _id: 'eedfcf',
-    name: 'mobile phone',
-    description: 'Huawei Honor',
-    price: 200,
-    ratings: [
-      { userId: 'fg12cy', rate: 5 },
-      { userId: 'zwf8md', rate: 4.5 },
-    ],
-    likes: [],
-  },
-  {
-    _id: 'aegfal',
-    name: 'Laptop',
-    description: 'MacPro: System Darwin',
-    price: 2500,
-    ratings: [],
-    likes: ['fg12cy'],
-  },
-  {
-    _id: 'hedfcg',
-    name: 'TV',
-    description: 'Smart TV:Procaster',
-    price: 400,
-    ratings: [{ userId: 'fg12cy', rate: 5 }],
-    likes: ['fg12cy'],
-  },
+	{
+		_id: 'eedfcf',
+		name: 'mobile phone',
+		description: 'Huawei Honor',
+		price: 200,
+		ratings: [
+			{ userId: 'fg12cy', rate: 5 },
+			{ userId: 'zwf8md', rate: 4.5 },
+		],
+		likes: [],
+	},
+	{
+		_id: 'aegfal',
+		name: 'Laptop',
+		description: 'MacPro: System Darwin',
+		price: 2500,
+		ratings: [],
+		likes: ['fg12cy'],
+	},
+	{
+		_id: 'hedfcg',
+		name: 'TV',
+		description: 'Smart TV:Procaster',
+		price: 400,
+		ratings: [{ userId: 'fg12cy', rate: 5 }],
+		likes: ['fg12cy'],
+	},
 ]
 ```
 
 Imagine you are getting the above users collection from a MongoDB database.
-a. Create a function called signUp which allows user to add to the collection. If user exists, inform the user that he has already an account.  
- b. Create a function called signIn which allows user to sign in to the application
+a. Create a function called signUp which allows user to add to the collection. If user exists, inform the user that he has already an account.
+b. Create a function called signIn which allows user to sign in to the application
 
 3. The products array has three elements and each of them has six properties.
    a. Create a function called rateProduct which rates the product
@@ -2168,7 +2150,7 @@ Let us see how to declare a function and how to call a function.
 ```js
 //declaring a function without a parameter
 function functionName() {
-  // code goes here
+	// code goes here
 }
 functionName() // calling function by its name and with parentheses
 ```
@@ -2182,20 +2164,20 @@ Function can be declared without a parameter.
 ```js
 // function without parameter,  a function which make a number square
 function square() {
-  let num = 2
-  let sq = num * num
-  console.log(sq)
+	let num = 2
+	let sq = num * num
+	console.log(sq)
 }
 
 square() // 4
 
 // function without parameter
 function addTwoNumbers() {
-  let numOne = 10
-  let numTwo = 20
-  let sum = numOne + numTwo
+	let numOne = 10
+	let numTwo = 20
+	let sum = numOne + numTwo
 
-  console.log(sum)
+	console.log(sum)
 }
 
 addTwoNumbers() // a function has to be called by its name to be executed
@@ -2203,11 +2185,11 @@ addTwoNumbers() // a function has to be called by its name to be executed
 
 ```js
 function printFullName() {
-  let firstName = 'Asabeneh'
-  let lastName = 'Yetayeh'
-  let space = ' '
-  let fullName = firstName + space + lastName
-  console.log(fullName)
+	let firstName = 'Asabeneh'
+	let lastName = 'Yetayeh'
+	let space = ' '
+	let fullName = firstName + space + lastName
+	console.log(fullName)
 }
 
 printFullName() // calling a function
@@ -2219,21 +2201,21 @@ Function can also return values, if a function does not return values the value 
 
 ```js
 function printFullName() {
-  let firstName = 'Asabeneh'
-  let lastName = 'Yetayeh'
-  let space = ' '
-  let fullName = firstName + space + lastName
-  return fullName
+	let firstName = 'Asabeneh'
+	let lastName = 'Yetayeh'
+	let space = ' '
+	let fullName = firstName + space + lastName
+	return fullName
 }
 console.log(printFullName())
 ```
 
 ```js
 function addTwoNumbers() {
-  let numOne = 2
-  let numTwo = 3
-  let total = numOne + numTwo
-  return total
+	let numOne = 2
+	let numTwo = 3
+	let total = numOne + numTwo
+	return total
 }
 
 console.log(addTwoNumbers())
@@ -2246,19 +2228,19 @@ In a function we can pass different data types(number, string, boolean, object, 
 ```js
 // function with one parameter
 function functionName(parm1) {
-  //code goes her
+	//code goes her
 }
 functionName(parm1) // during calling or invoking one argument needed
 
 function areaOfCircle(r) {
-  let area = Math.PI * r * r
-  return area
+	let area = Math.PI * r * r
+	return area
 }
 
 console.log(areaOfCircle(10)) // should be called with one argument
 
 function square(number) {
-  return number * number
+	return number * number
 }
 
 console.log(square(10))
@@ -2269,25 +2251,25 @@ console.log(square(10))
 ```js
 // function with two parameters
 function functionName(parm1, parm2) {
-  //code goes her
+	//code goes her
 }
 functionName(parm1, parm2) // during calling or invoking two arguments needed
 // Function without parameter doesn't take input, so lets make a function with parameters
 function sumTwoNumbers(numOne, numTwo) {
-  let sum = numOne + numTwo
-  console.log(sum)
+	let sum = numOne + numTwo
+	console.log(sum)
 }
 sumTwoNumbers(10, 20) // calling functions
 // If a function doesn't return it doesn't store data, so it should return
 
 function sumTwoNumbers(numOne, numTwo) {
-  let sum = numOne + numTwo
-  return sum
+	let sum = numOne + numTwo
+	return sum
 }
 
 console.log(sumTwoNumbers(10, 20))
 function printFullName(firstName, lastName) {
-  return `${firstName} ${lastName}`
+	return `${firstName} ${lastName}`
 }
 console.log(printFullName('Asabeneh', 'Yetayeh'))
 ```
@@ -2399,9 +2381,9 @@ Anonymous function or without name
 
 ```js
 const anonymousFun = function () {
-  console.log(
-    'I am an anonymous function and my value is stored in anonymousFun'
-  )
+	console.log(
+		'I am an anonymous function and my value is stored in anonymousFun'
+	)
 }
 ```
 
@@ -2412,7 +2394,7 @@ Expression functions are anonymous functions. After we create a function without
 ```js
 // Function expression
 const square = function (n) {
-  return n * n
+	return n * n
 }
 
 console.log(square(2)) // -> 4
@@ -2424,11 +2406,11 @@ Self invoking functions are anonymous functions which do not need to be called t
 
 ```js
 ;(function (n) {
-  console.log(n * n)
+	console.log(n * n)
 })(2) // 4, but instead of just printing if we want to return and store the data, we do as shown below
 
 let squaredNum = (function (n) {
-  return n * n
+	return n * n
 })(10)
 
 console.log(squaredNum)
@@ -2444,13 +2426,13 @@ Arrow function uses arrow instead of the keyword _function_ to declare a functio
 // This is how we write normal or declaration function
 // Let us change this declaration function to an arrow function
 function square(n) {
-  return n * n
+	return n * n
 }
 
 console.log(square(2)) // 4
 
 const square = (n) => {
-  return n * n
+	return n * n
 }
 
 console.log(square(2)) // -> 4
@@ -2461,11 +2443,11 @@ const square = (n) => n * n // -> 4
 
 ```js
 const changeToUpperCase = (arr) => {
-  const newArr = []
-  for (const element of arr) {
-    newArr.push(element.toUpperCase())
-  }
-  return newArr
+	const newArr = []
+	for (const element of arr) {
+		newArr.push(element.toUpperCase())
+	}
+	return newArr
 }
 
 const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
@@ -2476,7 +2458,7 @@ console.log(changeToUpperCase(countries))
 
 ```js
 const printFullName = (firstName, lastName) => {
-  return `${firstName} ${lastName}`
+	return `${firstName} ${lastName}`
 }
 
 console.log(printFullName('Asabeneh', 'Yetayeh'))
@@ -2498,7 +2480,7 @@ Sometimes we pass default values to parameters, when we invoke the function if w
 // syntax
 // Declaring a function
 function functionName(param = value) {
-  //codes
+	//codes
 }
 
 // Calling function
@@ -2510,8 +2492,8 @@ functionName(arg)
 
 ```js
 function greetings(name = 'Peter') {
-  let message = `${name}, welcome to 30 Days Of JavaScript!`
-  return message
+	let message = `${name}, welcome to 30 Days Of JavaScript!`
+	return message
 }
 
 console.log(greetings())
@@ -2520,9 +2502,9 @@ console.log(greetings('Asabeneh'))
 
 ```js
 function generateFullName(firstName = 'Asabeneh', lastName = 'Yetayeh') {
-  let space = ' '
-  let fullName = firstName + space + lastName
-  return fullName
+	let space = ' '
+	let fullName = firstName + space + lastName
+	return fullName
 }
 
 console.log(generateFullName())
@@ -2531,8 +2513,8 @@ console.log(generateFullName('David', 'Smith'))
 
 ```js
 function calculateAge(birthYear, currentYear = 2019) {
-  let age = currentYear - birthYear
-  return age
+	let age = currentYear - birthYear
+	return age
 }
 
 console.log('Age: ', calculateAge(1819))
@@ -2540,8 +2522,8 @@ console.log('Age: ', calculateAge(1819))
 
 ```js
 function weightOfObject(mass, gravity = 9.81) {
-  let weight = mass * gravity + ' N' // the value has to be changed to string first
-  return weight
+	let weight = mass * gravity + ' N' // the value has to be changed to string first
+	return weight
 }
 
 console.log('Weight of an object in Newton: ', weightOfObject(100)) // 9.81 gravity at the surface of Earth
@@ -2554,7 +2536,7 @@ Let us see how we write the above functions with arrow functions
 // syntax
 // Declaring a function
 const functionName = (param = value) => {
-  //codes
+	//codes
 }
 
 // Calling function
@@ -2566,8 +2548,8 @@ functionName(arg)
 
 ```js
 const greetings = (name = 'Peter') => {
-  let message = name + ', welcome to 30 Days Of JavaScript!'
-  return message
+	let message = name + ', welcome to 30 Days Of JavaScript!'
+	return message
 }
 
 console.log(greetings())
@@ -2576,9 +2558,9 @@ console.log(greetings('Asabeneh'))
 
 ```js
 const generateFullName = (firstName = 'Asabeneh', lastName = 'Yetayeh') => {
-  let space = ' '
-  let fullName = firstName + space + lastName
-  return fullName
+	let space = ' '
+	let fullName = firstName + space + lastName
+	return fullName
 }
 
 console.log(generateFullName())
@@ -2763,14 +2745,13 @@ Let us see were we use call back functions.For instance the _forEach_ method use
 
 ```js
 const numbers = [1, 2, 3, 4]
-const sumArray = arr => {
-  let sum = 0
-  const callback = function(element) {
-    sum += element
-  }
-  arr.forEach(callback)
-  return sum
-
+const sumArray = (arr) => {
+	let sum = 0
+	const callback = function (element) {
+		sum += element
+	}
+	arr.forEach(callback)
+	return sum
 }
 console.log(sumArray(numbers))
 ```
@@ -2813,14 +2794,14 @@ In JavaScript, we use setInterval higher order function to do some activity cont
 ```js
 // syntax
 function callback() {
-  // code goes here
+	// code goes here
 }
 setInterval(callback, duration)
 ```
 
 ```js
 function sayHello() {
-  console.log('Hello')
+	console.log('Hello')
 }
 setInterval(sayHello, 2000) // it prints hello in every 2 seconds
 ```
@@ -2832,14 +2813,14 @@ In JavaScript, we use setTimeout higher order function to execute some action at
 ```js
 // syntax
 function callback() {
-  // code goes here
+	// code goes here
 }
 setTimeout(callback, duration) // duration in milliseconds
 ```
 
 ```js
 function sayHello() {
-  console.log('Hello')
+	console.log('Hello')
 }
 setTimeout(sayHello, 2000) // it prints hello after it waits for 2 seconds.
 ```
@@ -2870,11 +2851,11 @@ Accessing array items using a loop
 
 ```js
 for (const number of numbers) {
-  console.log(number)
+	console.log(number)
 }
 
 for (const country of countries) {
-  console.log(country)
+	console.log(country)
 }
 ```
 
@@ -2969,14 +2950,14 @@ const [num1, num2, num3, ...rest] = nums
 console.log(num1, num2, num3, rest) //1, 2, 3, [4, 5, 6, 7, 8, 9, 10]
 
 const countries = [
-  'Germany',
-  'France',
-  'Belgium',
-  'Finland',
-  'Sweden',
-  'Norway',
-  'Denmark',
-  'Iceland',
+	'Germany',
+	'France',
+	'Belgium',
+	'Finland',
+	'Sweden',
+	'Norway',
+	'Denmark',
+	'Iceland',
 ]
 
 let [gem, fra, , ...nordicCountries] = countries
@@ -2990,22 +2971,22 @@ Destructuring when we loop through arrays
 
 ```js
 const countries = [
-  ['Finland', 'Helsinki'],
-  ['Sweden', 'Stockholm'],
-  ['Norway', 'Oslo'],
+	['Finland', 'Helsinki'],
+	['Sweden', 'Stockholm'],
+	['Norway', 'Oslo'],
 ]
 
 for (const [country, city] of countries) {
-  console.log(country, city)
+	console.log(country, city)
 }
 
 const fullStack = [
-  ['HTML', 'CSS', 'JS', 'React'],
-  ['Node', 'Express', 'MongoDB'],
+	['HTML', 'CSS', 'JS', 'React'],
+	['Node', 'Express', 'MongoDB'],
 ]
 
 for (const [first, second, third, fourth] of fullStack) {
-  console.log(first, second, third, fourt)
+	console.log(first, second, third, fourt)
 }
 ```
 
@@ -3031,8 +3012,8 @@ An object literal is made of key and value pairs. A very simple example of an ob
 
 ```js
 const rectangle = {
-  width: 20,
-  height: 10,
+	width: 20,
+	height: 10,
 }
 ```
 
@@ -3040,8 +3021,8 @@ We access the value of an object using the following methods:
 
 ```js
 const rectangle = {
-  width: 20,
-  height: 10,
+	width: 20,
+	height: 10,
 }
 
 let width = rectangle.width
@@ -3059,8 +3040,8 @@ When we destructure an object the name of the variable should be exactly the sam
 
 ```js
 const rectangle = {
-  width: 20,
-  height: 10,
+	width: 20,
+	height: 10,
 }
 
 let { width, height } = rectangle
@@ -3071,14 +3052,14 @@ What will be the value of we try to access a key which not in the object.
 
 ```js
 const rectangle = {
-  width: 20,
-  height: 10,
+	width: 20,
+	height: 10,
 }
 
 let { width, height, perimeter } = rectangleconsole.log(
-  width,
-  height,
-  perimeter
+	width,
+	height,
+	perimeter
 ) // 20, 10, undefined
 ```
 
@@ -3090,8 +3071,8 @@ Similar to the array, we can also use a default value in object destructuring.
 
 ```js
 const rectangle = {
-  width: 20,
-  height: 10,
+	width: 20,
+	height: 10,
 }
 
 let { width, height, perimeter = 200 } = rectangle
@@ -3102,8 +3083,8 @@ Renaming variable names
 
 ```js
 const rectangle = {
-  width: 20,
-  height: 10,
+	width: 20,
+	height: 10,
 }
 
 let { width: w, height: h } = rectangle
@@ -3164,21 +3145,21 @@ Destructuring during loop through an array
 
 ```js
 const languages = [
-  { lang: 'English', count: 91 },
-  { lang: 'French', count: 45 },
-  { lang: 'Arabic', count: 25 },
-  { lang: 'Spanish', count: 24 },
-  { lang: 'Russian', count: 9 },
-  { lang: 'Portuguese', count: 9 },
-  { lang: 'Dutch', count: 8 },
-  { lang: 'German', count: 7 },
-  { lang: 'Chinese', count: 5 },
-  { lang: 'Swahili', count: 4 },
-  { lang: 'Serbian', count: 4 },
+	{ lang: 'English', count: 91 },
+	{ lang: 'French', count: 45 },
+	{ lang: 'Arabic', count: 25 },
+	{ lang: 'Spanish', count: 24 },
+	{ lang: 'Russian', count: 9 },
+	{ lang: 'Portuguese', count: 9 },
+	{ lang: 'Dutch', count: 8 },
+	{ lang: 'German', count: 7 },
+	{ lang: 'Chinese', count: 5 },
+	{ lang: 'Swahili', count: 4 },
+	{ lang: 'Serbian', count: 4 },
 ]
 
 for (const { lang, count } of languages) {
-  console.log(`The ${lang} is spoken in ${count} countries.`)
+	console.log(`The ${lang} is spoken in ${count} countries.`)
 }
 ```
 
@@ -3196,23 +3177,23 @@ Create a function called getPersonInfo. The getPersonInfo function takes an obje
 
 ```js
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
-  age: 250,
-  country: 'Finland',
-  job: 'Instructor and Developer',
-  skills: [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'React',
-    'Redux',
-    'Node',
-    'MongoDB',
-    'Python',
-    'D3.js',
-  ],
-  languages: ['Amharic', 'English', 'Suomi(Finnish)'],
+	firstName: 'Asabeneh',
+	lastName: 'Yetayeh',
+	age: 250,
+	country: 'Finland',
+	job: 'Instructor and Developer',
+	skills: [
+		'HTML',
+		'CSS',
+		'JavaScript',
+		'React',
+		'Redux',
+		'Node',
+		'MongoDB',
+		'Python',
+		'D3.js',
+	],
+	languages: ['Amharic', 'English', 'Suomi(Finnish)'],
 }
 
 /*
@@ -3241,14 +3222,14 @@ console.log(rest)
 
 ```js
 const countries = [
-  'Germany',
-  'France',
-  'Belgium',
-  'Finland',
-  'Sweden',
-  'Norway',
-  'Denmark',
-  'Iceland',
+	'Germany',
+	'France',
+	'Belgium',
+	'Finland',
+	'Sweden',
+	'Norway',
+	'Denmark',
+	'Iceland',
 ]
 
 let [gem, fra, , ...nordicCountries] = countries
@@ -3304,10 +3285,10 @@ We can copy an object using a spread operator
 
 ```js
 const user = {
-  name: 'Asabeneh',
-  title: 'Programmer',
-  country: 'Finland',
-  city: 'Helsinki',
+	name: 'Asabeneh',
+	title: 'Programmer',
+	country: 'Finland',
+	city: 'Helsinki',
 }
 
 const copiedUser = { ...user }
@@ -3322,10 +3303,10 @@ Modifying or changing the object while copying
 
 ```js
 const user = {
-  name: 'Asabeneh',
-  title: 'Programmer',
-  country: 'Finland',
-  city: 'Helsinki',
+	name: 'Asabeneh',
+	title: 'Programmer',
+	country: 'Finland',
+	city: 'Helsinki',
 }
 
 const copiedUser = { ...user, title: 'instructor' }
@@ -3342,7 +3323,7 @@ Whenever we like to write an arrow function which takes unlimited number of argu
 
 ```js
 const sumAllNums = (...args) => {
-  console.log(args)
+	console.log(args)
 }
 
 sumAllNums(1, 2, 3, 4, 5)
@@ -3355,11 +3336,11 @@ sumAllNums(1, 2, 3, 4, 5)
 
 ```js
 const sumAllNums = (...args) => {
-  let sum = 0
-  for (const num of args) {
-    sum += num
-  }
-  return sum
+	let sum = 0
+	for (const num of args) {
+		sum += num
+	}
+	return sum
 }
 
 console.log(sumAllNums(1, 2, 3, 4, 5))
@@ -3409,7 +3390,7 @@ Let see different examples
 ```js
 const countries = ['Finland', 'Estonia', 'Sweden', 'Norway']
 countries.forEach(function (country, index, arr) {
-  console.log(i, country.toUpperCase())
+	console.log(i, country.toUpperCase())
 })
 ```
 
@@ -3457,7 +3438,7 @@ We use the map method whenever we like to modify an array. We use the map method
 // syntax in a normal or a function declaration
 
 function callback(item, i) {
-  return // code goes here
+	return // code goes here
 }
 
 const modifiedArray = array.map(callback)
@@ -3465,7 +3446,7 @@ const modifiedArray = array.map(callback)
 // or syntax in an arrow function
 
 const callback = (item, i) => {
-  return // code goes here
+	return // code goes here
 }
 const modifiedArray = array.map(callback)
 ```
@@ -3478,7 +3459,7 @@ Now, let us modify the countries array using the map method. The index is an opt
 const countries = ['Finland', 'Estonia', 'Sweden', 'Norway']
 
 const newCountries = countries.map(function (country) {
-  return country.toUpperCase()
+	return country.toUpperCase()
 })
 
 console.log(newCountries)
@@ -3518,7 +3499,7 @@ For instance if we want to filter out countries containing a substring land from
 ```js
 // syntax in a normal or a function declaration
 function callback(item) {
-  return // boolean
+	return // boolean
 }
 
 const filteredArray = array.filter(callback)
@@ -3526,7 +3507,7 @@ const filteredArray = array.filter(callback)
 // or syntax in an arrow function
 
 const callback = (item) => {
-  return // boolean
+	return // boolean
 }
 const filteredArray = array.filter(callback)
 ```
@@ -3534,7 +3515,7 @@ const filteredArray = array.filter(callback)
 ```js
 const countries = ['Finland', 'Estonia', 'Sweden', 'Norway', 'Iceland']
 const countriesWithLand = countries.filter((country) =>
-  country.includes('land')
+	country.includes('land')
 )
 console.log(countriesWithLand) // ["Finland", "Iceland"]
 ```
@@ -3544,7 +3525,7 @@ How about if we want to filter out countries not containing the substring land. 
 ```js
 const countries = ['Finland', 'Estonia', 'Sweden', 'Norway', 'Iceland']
 const countriesWithLand = countries.filter(
-  (country) => !country.includes('land')
+	(country) => !country.includes('land')
 )
 console.log(countriesWithLand) // ["Estonia", "Sweden", "Norway"]
 ```
@@ -3781,12 +3762,12 @@ console.log(someAreOdds)  // false
 
 ```js
 const products = [
-  { product: 'banana', price: 3 },
-  { product: 'mango', price: 6 },
-  { product: 'potato', price: ' ' },
-  { product: 'avocado', price: 8 },
-  { product: 'coffee', price: 10 },
-  { product: 'tea', price: '' },
+	{ product: 'banana', price: 3 },
+	{ product: 'mango', price: 6 },
+	{ product: 'potato', price: ' ' },
+	{ product: 'avocado', price: 8 },
+	{ product: 'coffee', price: 10 },
+	{ product: 'tea', price: '' },
 ]
 ```
 
@@ -3839,7 +3820,7 @@ class ClassName {
 
 ```js
 class Person {
-  // code goes here
+	// code goes here
 }
 ```
 
@@ -3853,7 +3834,7 @@ Let us create a dog object from our Person class.
 
 ```js
 class Person {
-  // code goes here
+	// code goes here
 }
 const person = new Person()
 console.log(person)
@@ -3875,11 +3856,11 @@ The following Person class constructor has firstName and lastName property. Thes
 
 ```js
 class Person {
-  constructor(firstName, lastName) {
-    console.log(this) // Check the output from here
-    this.firstName = firstName
-    this.lastName = lastName
-  }
+	constructor(firstName, lastName) {
+		console.log(this) // Check the output from here
+		this.firstName = firstName
+		this.lastName = lastName
+	}
 }
 
 const person = new Person()
@@ -3895,10 +3876,10 @@ All the keys of the object are undefined. When ever we instantiate we should pas
 
 ```js
 class Person {
-  constructor(firstName, lastName) {
-    this.firstName = firstName
-    this.lastName = lastName
-  }
+	constructor(firstName, lastName) {
+		this.firstName = firstName
+		this.lastName = lastName
+	}
 }
 
 const person1 = new Person('Asabeneh', 'Yetayeh')
@@ -3914,11 +3895,11 @@ As we have stated at the very beginning that once we create a class we can creat
 
 ```js
 class Person {
-  constructor(firstName, lastName) {
-    console.log(this) // Check the output from here
-    this.firstName = firstName
-    this.lastName = lastName
-  }
+	constructor(firstName, lastName) {
+		console.log(this) // Check the output from here
+		this.firstName = firstName
+		this.lastName = lastName
+	}
 }
 
 const person1 = new Person('Asabeneh', 'Yetayeh')
@@ -3940,14 +3921,14 @@ Using the class Person we created three persons object. As you can see our class
 
 ```js
 class Person {
-  constructor(firstName, lastName, age, country, city) {
-    console.log(this) // Check the output from here
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
-  }
+	constructor(firstName, lastName, age, country, city) {
+		console.log(this) // Check the output from here
+		this.firstName = firstName
+		this.lastName = lastName
+		this.age = age
+		this.country = country
+		this.city = city
+	}
 }
 
 const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
@@ -3965,19 +3946,19 @@ The constructor function properties may have a default value like other regular 
 
 ```js
 class Person {
-  constructor(
-    firstName = 'Asabeneh',
-    lastName = 'Yetayeh',
-    age = 250,
-    country = 'Finland',
-    city = 'Helsinki'
-  ) {
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
-  }
+	constructor(
+		firstName = 'Asabeneh',
+		lastName = 'Yetayeh',
+		age = 250,
+		country = 'Finland',
+		city = 'Helsinki'
+	) {
+		this.firstName = firstName
+		this.lastName = lastName
+		this.age = age
+		this.country = country
+		this.city = city
+	}
 }
 
 const person1 = new Person() // it will take the default values
@@ -3998,17 +3979,17 @@ The constructor inside a class is a builtin function which allow us to create a 
 
 ```js
 class Person {
-  constructor(firstName, lastName, age, country, city) {
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
-  }
-  getFullName() {
-    const fullName = this.firstName + ' ' + this.lastName
-    return fullName
-  }
+	constructor(firstName, lastName, age, country, city) {
+		this.firstName = firstName
+		this.lastName = lastName
+		this.age = age
+		this.country = country
+		this.city = city
+	}
+	getFullName() {
+		const fullName = this.firstName + ' ' + this.lastName
+		return fullName
+	}
 }
 
 const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
@@ -4029,19 +4010,19 @@ When we create a class for some properties we may have an initial value. For ins
 
 ```js
 class Person {
-  constructor(firstName, lastName, age, country, city) {
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
-    this.score = 0
-    this.skills = []
-  }
-  getFullName() {
-    const fullName = this.firstName + ' ' + this.lastName
-    return fullName
-  }
+	constructor(firstName, lastName, age, country, city) {
+		this.firstName = firstName
+		this.lastName = lastName
+		this.age = age
+		this.country = country
+		this.city = city
+		this.score = 0
+		this.skills = []
+	}
+	getFullName() {
+		const fullName = this.firstName + ' ' + this.lastName
+		return fullName
+	}
 }
 
 const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
@@ -4069,25 +4050,25 @@ The get method allow us to access value from the object. We write a get method u
 
 ```js
 class Person {
-  constructor(firstName, lastName, age, country, city) {
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
-    this.score = 0
-    this.skills = []
-  }
-  getFullName() {
-    const fullName = this.firstName + ' ' + this.lastName
-    return fullName
-  }
-  get getScore() {
-    return this.score
-  }
-  get getSkills() {
-    return this.skills
-  }
+	constructor(firstName, lastName, age, country, city) {
+		this.firstName = firstName
+		this.lastName = lastName
+		this.age = age
+		this.country = country
+		this.city = city
+		this.score = 0
+		this.skills = []
+	}
+	getFullName() {
+		const fullName = this.firstName + ' ' + this.lastName
+		return fullName
+	}
+	get getScore() {
+		return this.score
+	}
+	get getSkills() {
+		return this.skills
+	}
 }
 
 const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
@@ -4113,31 +4094,31 @@ The setter method allow us to modify the value of certain properties. We write a
 
 ```js
 class Person {
-  constructor(firstName, lastName, age, country, city) {
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
-    this.score = 0
-    this.skills = []
-  }
-  getFullName() {
-    const fullName = this.firstName + ' ' + this.lastName
-    return fullName
-  }
-  get getScore() {
-    return this.score
-  }
-  get getSkills() {
-    return this.skills
-  }
-  set setScore(score) {
-    this.score += score
-  }
-  set setSkill(skill) {
-    this.skills.push(skill)
-  }
+	constructor(firstName, lastName, age, country, city) {
+		this.firstName = firstName
+		this.lastName = lastName
+		this.age = age
+		this.country = country
+		this.city = city
+		this.score = 0
+		this.skills = []
+	}
+	getFullName() {
+		const fullName = this.firstName + ' ' + this.lastName
+		return fullName
+	}
+	get getScore() {
+		return this.score
+	}
+	get getSkills() {
+		return this.skills
+	}
+	set setScore(score) {
+		this.score += score
+	}
+	set setSkill(skill) {
+		this.skills.push(skill)
+	}
 }
 
 const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
@@ -4171,42 +4152,42 @@ Do not be puzzled by the difference between regular method and a getter. If you 
 
 ```js
 class Person {
-  constructor(firstName, lastName, age, country, city) {
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
-    this.score = 0
-    this.skills = []
-  }
-  getFullName() {
-    const fullName = this.firstName + ' ' + this.lastName
-    return fullName
-  }
-  get getScore() {
-    return this.score
-  }
-  get getSkills() {
-    return this.skills
-  }
-  set setScore(score) {
-    this.score += score
-  }
-  set setSkill(skill) {
-    this.skills.push(skill)
-  }
-  getPersonInfo() {
-    let fullName = this.getFullName()
-    let skills =
-      this.skills.length > 0 &&
-      this.skills.slice(0, this.skills.length - 1).join(', ') +
-        ` and ${this.skills[this.skills.length - 1]}`
-    let formattedSkills = skills ? `He knows ${skills}` : ''
+	constructor(firstName, lastName, age, country, city) {
+		this.firstName = firstName
+		this.lastName = lastName
+		this.age = age
+		this.country = country
+		this.city = city
+		this.score = 0
+		this.skills = []
+	}
+	getFullName() {
+		const fullName = this.firstName + ' ' + this.lastName
+		return fullName
+	}
+	get getScore() {
+		return this.score
+	}
+	get getSkills() {
+		return this.skills
+	}
+	set setScore(score) {
+		this.score += score
+	}
+	set setSkill(skill) {
+		this.skills.push(skill)
+	}
+	getPersonInfo() {
+		let fullName = this.getFullName()
+		let skills =
+			this.skills.length > 0 &&
+			this.skills.slice(0, this.skills.length - 1).join(', ') +
+				` and ${this.skills[this.skills.length - 1]}`
+		let formattedSkills = skills ? `He knows ${skills}` : ''
 
-    let info = `${fullName} is ${this.age}. He lives ${this.city}, ${this.country}. ${formattedSkills}`
-    return info
-  }
+		let info = `${fullName} is ${this.age}. He lives ${this.city}, ${this.country}. ${formattedSkills}`
+		return info
+	}
 }
 
 const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
@@ -4252,67 +4233,67 @@ The static keyword defines a static method for a class. Static methods are not c
 
 ```js
 class Person {
-  constructor(firstName, lastName, age, country, city) {
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
-    this.score = 0
-    this.skills = []
-  }
-  getFullName() {
-    const fullName = this.firstName + ' ' + this.lastName
-    return fullName
-  }
-  get getScore() {
-    return this.score
-  }
-  get getSkills() {
-    return this.skills
-  }
-  set setScore(score) {
-    this.score += score
-  }
-  set setSkill(skill) {
-    this.skills.push(skill)
-  }
-  getPersonInfo() {
-    let fullName = this.getFullName()
-    let skills =
-      this.skills.length > 0 &&
-      this.skills.slice(0, this.skills.length - 1).join(', ') +
-        ` and ${this.skills[this.skills.length - 1]}`
+	constructor(firstName, lastName, age, country, city) {
+		this.firstName = firstName
+		this.lastName = lastName
+		this.age = age
+		this.country = country
+		this.city = city
+		this.score = 0
+		this.skills = []
+	}
+	getFullName() {
+		const fullName = this.firstName + ' ' + this.lastName
+		return fullName
+	}
+	get getScore() {
+		return this.score
+	}
+	get getSkills() {
+		return this.skills
+	}
+	set setScore(score) {
+		this.score += score
+	}
+	set setSkill(skill) {
+		this.skills.push(skill)
+	}
+	getPersonInfo() {
+		let fullName = this.getFullName()
+		let skills =
+			this.skills.length > 0 &&
+			this.skills.slice(0, this.skills.length - 1).join(', ') +
+				` and ${this.skills[this.skills.length - 1]}`
 
-    let formattedSkills = skills ? `He knows ${skills}` : ''
+		let formattedSkills = skills ? `He knows ${skills}` : ''
 
-    let info = `${fullName} is ${this.age}. He lives ${this.city}, ${this.country}. ${formattedSkills}`
-    return info
-  }
-  static favoriteSkill() {
-    const skills = ['HTML', 'CSS', 'JS', 'React', 'Python', 'Node']
-    const index = Math.floor(Math.random() * skills.length)
-    return skills[index]
-  }
-  static showDateTime() {
-    let now = new Date()
-    let year = now.getFullYear()
-    let month = now.getMonth() + 1
-    let date = now.getDate()
-    let hours = now.getHours()
-    let minutes = now.getMinutes()
-    if (hours < 10) {
-      hours = '0' + hours
-    }
-    if (minutes < 10) {
-      minutes = '0' + minutes
-    }
+		let info = `${fullName} is ${this.age}. He lives ${this.city}, ${this.country}. ${formattedSkills}`
+		return info
+	}
+	static favoriteSkill() {
+		const skills = ['HTML', 'CSS', 'JS', 'React', 'Python', 'Node']
+		const index = Math.floor(Math.random() * skills.length)
+		return skills[index]
+	}
+	static showDateTime() {
+		let now = new Date()
+		let year = now.getFullYear()
+		let month = now.getMonth() + 1
+		let date = now.getDate()
+		let hours = now.getHours()
+		let minutes = now.getMinutes()
+		if (hours < 10) {
+			hours = '0' + hours
+		}
+		if (minutes < 10) {
+			minutes = '0' + minutes
+		}
 
-    let dateMonthYear = date + '.' + month + '.' + year
-    let time = hours + ':' + minutes
-    let fullTime = dateMonthYear + ' ' + time
-    return fullTime
-  }
+		let dateMonthYear = date + '.' + month + '.' + year
+		let time = hours + ':' + minutes
+		let fullTime = dateMonthYear + ' ' + time
+		return fullTime
+	}
 }
 
 console.log(Person.favoriteSkill())
@@ -4341,9 +4322,9 @@ Let us create a Student child class from Person parent class.
 
 ```js
 class Student extends Person {
-  saySomething() {
-    console.log('I am a child of the person class')
-  }
+	saySomething() {
+		console.log('I am a child of the person class')
+	}
 }
 
 const s1 = new Student('Asabeneh', 'Yetayeh', 'Finland', 250, 'Helsinki')
@@ -4367,36 +4348,36 @@ As you can see, we manage to access all the methods in the Person Class and we u
 
 ```js
 class Student extends Person {
-  constructor(firstName, lastName, age, country, city, gender) {
-    super(firstName, lastName, age, country, city)
-    this.gender = gender
-  }
+	constructor(firstName, lastName, age, country, city, gender) {
+		super(firstName, lastName, age, country, city)
+		this.gender = gender
+	}
 
-  saySomething() {
-    console.log('I am a child of the person class')
-  }
-  getPersonInfo() {
-    let fullName = this.getFullName()
-    let skills =
-      this.skills.length > 0 &&
-      this.skills.slice(0, this.skills.length - 1).join(', ') +
-        ` and ${this.skills[this.skills.length - 1]}`
+	saySomething() {
+		console.log('I am a child of the person class')
+	}
+	getPersonInfo() {
+		let fullName = this.getFullName()
+		let skills =
+			this.skills.length > 0 &&
+			this.skills.slice(0, this.skills.length - 1).join(', ') +
+				` and ${this.skills[this.skills.length - 1]}`
 
-    let formattedSkills = skills ? `He knows ${skills}` : ''
-    let pronoun = this.gender == 'Male' ? 'He' : 'She'
+		let formattedSkills = skills ? `He knows ${skills}` : ''
+		let pronoun = this.gender == 'Male' ? 'He' : 'She'
 
-    let info = `${fullName} is ${this.age}. ${pronoun} lives in ${this.city}, ${this.country}. ${formattedSkills}`
-    return info
-  }
+		let info = `${fullName} is ${this.age}. ${pronoun} lives in ${this.city}, ${this.country}. ${formattedSkills}`
+		return info
+	}
 }
 
 const s1 = new Student(
-  'Asabeneh',
-  'Yetayeh',
-  250,
-  'Finland',
-  'Helsinki',
-  'Male'
+	'Asabeneh',
+	'Yetayeh',
+	250,
+	'Finland',
+	'Helsinki',
+	'Male'
 )
 const s2 = new Student('Lidiya', 'Tekle', 28, 'Finland', 'Helsinki', 'Female')
 s1.setScore = 1
@@ -4494,30 +4475,24 @@ So do not directly manipulate the DOM if you are using react. The only place we 
 ```html
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>React App</title>
-  </head>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>React App</title>
+	</head>
 
-  <body>
-    <!-- <div class="root"></div> -->
-    <div id="root"></div>
+	<body>
+		<!-- <div class="root"></div> -->
+		<div id="root"></div>
 
-    <script>
-      // const root = document.querySelector('.root')
-      // const root = document.getElementById('root')
-      const root = document.querySelector('#root')
-      root.innerHTML = <h1>Welcome to 30 Days Of React </h1>
-    </script>
-  </body>
+		<script>
+			// const root = document.querySelector('.root')
+			// const root = document.getElementById('root')
+			const root = document.querySelector('#root')
+			root.innerHTML = <h1>Welcome to 30 Days Of React </h1>
+		</script>
+	</body>
 </html>
 ```
 
 Check out there result on [codepen](https://codepen.io/Asabeneh/full/vYGqQxP)
-
-🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now you are a JavaScript Ninja and ready to dive into React.
-
-🎉 CONGRATULATIONS ! 🎉
-
-[<< Day 0](../readMe.md) | [Day 2 >>](../02_Day_Introduction_to_React/02_introduction_to_react.md)

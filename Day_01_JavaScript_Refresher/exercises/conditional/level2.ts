@@ -2,6 +2,7 @@
   Conditional Exercise Level 2
 **/
 
+// 1. Write a code which can give grades to students according to theirs scores
 let scores = 90
 const getMark = (scores: number): string => {
 	if (scores >= 90 && scores <= 100) return 'A'
@@ -12,9 +13,9 @@ const getMark = (scores: number): string => {
 
 	return null
 }
-
 console.log('(1). ' + getMark(scores))
 
+// 2. Check if the season is Autumn, Winter, Spring or Summer
 let month = 'March'
 let checkSeason = (month: string): string | null => {
 	if (month === 'September' || month === 'October' || month === 'November')
@@ -28,9 +29,9 @@ let checkSeason = (month: string): string | null => {
 
 	return null
 }
-
 console.log('(2). ' + checkSeason(month))
 
+// 3. Check if a day is weekend day or a working day.
 let day = 'Sunday'
 let checkDay = (day: string): string | null => {
 	if (day !== 'Sunday' && day !== 'Saturday') return `${day} is working day`
@@ -38,5 +39,4 @@ let checkDay = (day: string): string | null => {
 
 	return null
 }
-
 console.log('(3). ' + checkDay(day))
